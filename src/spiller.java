@@ -1,10 +1,17 @@
 
 public class spiller {
-    int konto = 1000;
+    private int konto;
 
-    public int getKonto() {
+    //Konstruktør
+    public spiller() {
+        konto = game.startKonto;
     }
 
-    public int setKonto() {
+    public int getkonto() {
+        return konto;
+    }
+
+    public void setKonto(int a) {
+        konto = konto + a;
     }
 }

@@ -2,7 +2,7 @@
 
 public class dice
 {
-    private final int MAX = 6; //Maximum værdi
+    private final int MAX = game.terningStr; //Maximum værdi
 
     private int faceValue; //nuværende værdi
 
