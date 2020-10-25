@@ -20,14 +20,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Release_branch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:feature_branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c24086b-8f8b-487e-821e-ef214abcd6f4" name="Default Changelist" comment="Opsætning af projekt.">
-      <change afterPath="$PROJECT_DIR$/src/dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/felter.java" afterDir="false" />
+    <list default="true" id="2c24086b-8f8b-487e-821e-ef214abcd6f4" name="Default Changelist" comment="Added code to all .java files. Game now functioning.&#10;Unstable version.">
+      <change afterPath="$PROJECT_DIR$/CDIO2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jGiUSHUhWovXqpJFvpImjYjayn" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -64,21 +64,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="game" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game" />
+      <module name="CDIO2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603436845203</updated>
       <workItem from="1603436846322" duration="1092000" />
+      <workItem from="1603649697847" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="Opsætning af projekt.">
       <created>1603437204687</created>
@@ -140,19 +161,75 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Opsætning af projekt." />
     <option name="LAST_COMMIT_MESSAGE" value="Opsætning af projekt." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="760" y="274" key="#Project_Structure" timestamp="1603649918494">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="#Project_Structure/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649918494" />
+    <state x="734" y="354" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603650004358">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="354" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603650004358" />
     <state x="1615" y="505" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603437928014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1615" y="505" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603437928014" />
+    <state x="1009" y="561" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603650001383">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1009" y="561" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603650001383" />
+    <state x="1063" y="590" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603649680898">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1063" y="590" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649680898" />
+    <state width="2517" height="251" key="GridCell.Tab.0.bottom" timestamp="1603649931174">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931174" />
+    <state width="2517" height="251" key="GridCell.Tab.0.center" timestamp="1603649931173">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.0.center/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931173" />
+    <state width="2517" height="251" key="GridCell.Tab.0.left" timestamp="1603649931173">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.0.left/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931173" />
+    <state width="2517" height="251" key="GridCell.Tab.0.right" timestamp="1603649931173">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.0.right/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931173" />
+    <state width="2517" height="251" key="GridCell.Tab.1.bottom" timestamp="1603649931024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931024" />
+    <state width="2517" height="251" key="GridCell.Tab.1.center" timestamp="1603649931024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.1.center/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931024" />
+    <state width="2517" height="251" key="GridCell.Tab.1.left" timestamp="1603649931024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.1.left/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931024" />
+    <state width="2517" height="251" key="GridCell.Tab.1.right" timestamp="1603649931024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="251" key="GridCell.Tab.1.right/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649931024" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1603649894873">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603649894873" />
     <state x="1449" y="436" key="Vcs.Push.Dialog.v2" timestamp="1603437814139">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1449" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603437814139" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CDIO2$game.ic" NAME="game Coverage Results" MODIFIED="1603649848291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
