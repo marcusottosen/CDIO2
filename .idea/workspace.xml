@@ -26,9 +26,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c24086b-8f8b-487e-821e-ef214abcd6f4" name="Default Changelist" comment="Rettelse til static int variable. Spillet virker som det skal her.">
+    <list default="true" id="2c24086b-8f8b-487e-821e-ef214abcd6f4" name="Default Changelist" comment="SOUT rettelser i logik klassen.">
+      <change afterPath="$PROJECT_DIR$/src/gameTestRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.game">
+  <component name="RunManager" selected="Application.gameTestRun">
     <configuration name="game" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -107,6 +109,13 @@
     </configuration>
     <configuration name="gameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gameTest" />
+      <module name="CDIO 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gameTestRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameTestRun" />
       <module name="CDIO 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gameTestRun" />
         <item itemvalue="Application.gameTest" />
       </list>
     </recent_temporary>
@@ -184,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603795491835</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SOUT rettelser i logik klassen.">
+      <created>1603796325505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603796325505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +236,8 @@
     <MESSAGE value="Opsætning af korrekte klasser i IntelliJ så programmet kan køres." />
     <MESSAGE value="Små SOUT rettelser." />
     <MESSAGE value="Rettelse til static int variable. Spillet virker som det skal her." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rettelse til static int variable. Spillet virker som det skal her." />
+    <MESSAGE value="SOUT rettelser i logik klassen." />
+    <option name="LAST_COMMIT_MESSAGE" value="SOUT rettelser i logik klassen." />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" width="816" height="729" key="#Intentions" timestamp="1603794666223">
@@ -250,22 +268,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="955" y="417" key="FileChooserDialogImpl/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792675093" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1603795621718">
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1603798322511">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603795621718" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1603795621718">
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322511" />
+    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1603798322510">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603795621718" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1603795621718">
+    <state width="2517" height="404" key="GridCell.Tab.0.center/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322510" />
+    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1603798322510">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603795621718" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1603795621718">
+    <state width="2517" height="404" key="GridCell.Tab.0.left/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322510" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1603798322510">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603795621718" />
+    <state width="2517" height="404" key="GridCell.Tab.0.right/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322510" />
     <state width="2517" height="370" key="GridCell.Tab.1.bottom" timestamp="1603792767433">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -290,15 +308,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="SettingsEditor/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794702170" />
-    <state x="1449" y="436" key="Vcs.Push.Dialog.v2" timestamp="1603795494536">
+    <state x="1449" y="436" key="Vcs.Push.Dialog.v2" timestamp="1603796328325">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1449" y="436" key="Vcs.Push.Dialog.v2/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603795494536" />
+    <state x="1449" y="436" key="Vcs.Push.Dialog.v2/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603796328325" />
     <state x="1449" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603437814139" />
-    <state x="1096" y="478" key="chooseDestDirectoryDialog" timestamp="1603794671833">
+    <state x="1096" y="478" key="chooseDestDirectoryDialog" timestamp="1603796857265">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1096" y="478" key="chooseDestDirectoryDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794671833" />
+    <state x="1096" y="478" key="chooseDestDirectoryDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603796857265" />
     <state x="984" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603794682344">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -307,10 +325,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603791304410" />
-    <state x="1051" y="506" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603794671844">
+    <state x="1051" y="506" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603796857276">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1051" y="506" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794671844" />
+    <state x="1051" y="506" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603796857276" />
     <state x="1059" y="413" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603791317556">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

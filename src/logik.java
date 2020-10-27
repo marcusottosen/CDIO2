@@ -38,14 +38,14 @@ public class logik{
 
 
     //Finder vinderen
-    public static void getWin(int p1, int p2) {
+    public static void getWin(int p1, int p2, int antalSlag) {
         System.out.println("\n \n \n");
         if (p1 > p2) {
-                System.out.println("Spiller 1 vinder kampen med hele " + p1 + " guld på sig! De brugte ");
+                System.out.println("Spiller 1 vinder kampen med hele " + p1 + " guld på sig! De brugte " + antalSlag + " slag");
                 System.out.println("Spiller 2 havde kun " + p2 + " guld på sig.");
             }
         else {
-            System.out.println("Spiller 2 vinder kampen med hele " + p2 + " guld på sig!" );
+            System.out.println("Spiller 2 vinder kampen med hele " + p2 + " guld på sig! De brugte " + antalSlag + " slag" );
             System.out.println("Spiller 1 havde kun " + p1 + " guld på sig.");
             }
         }
