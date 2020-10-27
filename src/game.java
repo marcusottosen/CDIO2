@@ -21,7 +21,7 @@ public class game {
             //Spiller 1 tur
             while (turn) {
                 String x;
-                System.out.println("Tryk en tast på dit keyboard og tryk derefter enter for at kaste terninger: ");
+                System.out.println("Skriv et bogstav eller tal og tryk enter for at tage din tur: ");
                 x = input.next();
                 logik.kast();  //Kaster terningerne
                 p1.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
@@ -36,7 +36,7 @@ public class game {
             //Spiller 2 tur
             while (!turn) {
                 String x;
-                System.out.println("Tryk en tast på dit keyboard og tryk derefter enter for at kaste terninger: ");
+                System.out.println("Skriv et bogstav eller tal og tryk enter for at tage din tur: ");
                 x = input.next();
                 logik.kast();  //Kaster terningerne
                 p2.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
