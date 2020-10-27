@@ -1,8 +1,20 @@
-public class logik{
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class logik {
     static int kastSum;
 
 
-    public static void play(){
+    public static void player1(spiller p1){
+        logik.kast();
+        p1.setKonto(felter.setFelt(logik.kastSum));
+    }
+
+    public static void player2(spiller p2){
+        logik.kast();
+        p2.setKonto(felter.setFelt(logik.kastSum));
     }
 
 
@@ -22,15 +34,20 @@ public class logik{
 
 
     //Print ved hvert slag
-    public static void print(boolean turn, int konto){
-        int spiller;
-        if (turn){ spiller = 1;}
-        else {spiller = 2;}
+    static JFrame f = new JFrame();
+    public static void print(String turLabel){
+        //f.turnLabel.setText("Tillykke! Spiller 1 har vundet spillet!");
 
-        System.out.println("\n");
-        System.out.println("Spiller " + spiller + " kaster to terninger og slår: " + kastSum);
-        System.out.println(felter.besked(kastSum)); //Printer besked fundet fra listen i felter.java
-        System.out.println("Du har nu " + konto + " guld på dig!");
+
+
+//        int spiller;
+//        if (turn){ spiller = 1;}
+//        else {spiller = 2;}
+//
+//        System.out.println("\n");
+//        System.out.println("Spiller " + spiller + " kaster to terninger og slår: " + kastSum);
+//        System.out.println(felter.besked(kastSum)); //Printer besked fundet fra listen i felter.java
+//        System.out.println("Du har nu " + konto + " guld på dig!");
     }
 
 
