@@ -1,5 +1,5 @@
 public class logik{
-    static int kastSum;
+    static int kastSum, testSum;
 
 
     public static void play(){
@@ -15,6 +15,9 @@ public class logik{
         d2.roll();
 
         kastSum = d1.getFaceValue()+d2.getFaceValue();
+
+        testSum = 3;
+
     }
 
 
@@ -22,8 +25,8 @@ public class logik{
 
 
     //Print ved hvert slag
+    static int spiller;
     public static void print(boolean turn, int konto){
-        int spiller;
         if (turn){ spiller = 1;}
         else {spiller = 2;}
 
