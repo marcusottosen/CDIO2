@@ -41,12 +41,12 @@ public class logik{
     public static void getWin(int p1, int p2) {
         System.out.println("\n \n \n");
         if (p1 > p2) {
-                System.out.println("Spiller 1 vinder kampen med hele " + p1 + " guld på sig!" );
+                System.out.println("Spiller 1 vinder kampen med hele " + p1 + " guld på sig! De brugte ");
                 System.out.println("Spiller 2 havde kun " + p2 + " guld på sig.");
             }
         else {
-            System.out.println("Spiller 1 vinder kampen med hele " + p2 + " guld på sig!" );
-            System.out.println("Spiller 2 havde kun " + p1 + " guld på sig.");
+            System.out.println("Spiller 2 vinder kampen med hele " + p2 + " guld på sig!" );
+            System.out.println("Spiller 1 havde kun " + p1 + " guld på sig.");
             }
         }
 }

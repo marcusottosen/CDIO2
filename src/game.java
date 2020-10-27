@@ -21,12 +21,14 @@ public class game {
             //Spiller 1 tur
             while (turn) {
                 String x;
+                int antalSlag = 0;
                 System.out.println("Skriv et bogstav eller tal og tryk enter for at tage din tur: ");
                 x = input.next();
                 logik.kast();  //Kaster terningerne
                 p1.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
                 logik.print(turn, p1.getkonto());
 
+                antalSlag = antalSlag++;
                 if(logik.kastSum==10){//ekstra tur hvis man slår 10
                     System.out.println("Du fik til gengæld en ekstra tur!");
                 }
