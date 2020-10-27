@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class game {
     //Værdier:
     static int startKonto = 1000;
@@ -14,8 +16,13 @@ public class game {
 
 
         while (p1.getkonto() <= maxScore && p2.getkonto() <= maxScore) {
+            Scanner input = new Scanner(System.in);
+
             //Spiller 1 tur
             while (turn) {
+                String x;
+                System.out.println("Tryk en tast på dit keyboard og tryk derefter enter for at kaste terninger: ");
+                x = input.next();
                 logik.kast();  //Kaster terningerne
                 p1.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
                 logik.print(turn, p1.getkonto());
@@ -28,6 +35,9 @@ public class game {
 
             //Spiller 2 tur
             while (!turn) {
+                String x;
+                System.out.println("Tryk en tast på dit keyboard og tryk derefter enter for at kaste terninger: ");
+                x = input.next();
                 logik.kast();  //Kaster terningerne
                 p2.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
                 logik.print(turn, p2.getkonto());
