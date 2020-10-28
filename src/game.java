@@ -22,7 +22,7 @@ public class game {
             while (turn) {
                 String x;
 
-                System.out.println("Skriv et bogstav eller tal og tryk enter for at tage din tur: ");
+                System.out.println(language.begin_turn);
                 x = input.next();
                 logik.kast();  //Kaster terningerne
                 p1.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
@@ -30,7 +30,7 @@ public class game {
 
                 antalSlag++;
                 if(logik.kastSum==10){//ekstra tur hvis man slår 10
-                    System.out.println("Du fik til gengæld en ekstra tur!");
+                    System.out.println(language.extra_turn);
                 }
                 else { turn=!turn;}
             }
@@ -38,14 +38,14 @@ public class game {
             //Spiller 2 tur
             while (!turn) {
                 String x;
-                System.out.println("Skriv et bogstav eller tal og tryk enter for at tage din tur: ");
+                System.out.println(language.begin_turn);
                 x = input.next();
                 logik.kast();  //Kaster terningerne
                 p2.setKonto(felter.setFelt(logik.kastSum));   // spillerens konto +- med feltets sum ud fra kastet terninger.
                 logik.print(turn, p2.getkonto());
 
                 if(logik.kastSum==10){//ekstra tur hvis man slår 10
-                    System.out.println("Du fik til gengæld en ekstra tur!");
+                    System.out.println(language.extra_turn);
                 }
                 else { turn=!turn;}
             }

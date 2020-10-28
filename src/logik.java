@@ -30,10 +30,9 @@ public class logik{
         if (turn){ spiller = 1;}
         else {spiller = 2;}
 
-        System.out.println("\n");
-        System.out.println("Spiller " + spiller + " kaster to terninger og slår: " + kastSum);
+        System.out.println("\n" + language.player_name +" "+ spiller +" "+ language.roll_result +" "+ kastSum);
         System.out.println(felter.besked(kastSum)); //Printer besked fundet fra listen i felter.java
-        System.out.println("Du har nu " + konto + " guld på dig!");
+        System.out.println(language.gold_balance +" "+ konto + "\n");
     }
 
 
@@ -41,12 +40,14 @@ public class logik{
     public static void getWin(int p1, int p2, int antalSlag) {
         System.out.println("\n \n \n");
         if (p1 > p2) {
-                System.out.println("Spiller 1 vinder kampen med hele " + p1 + " guld på sig! De brugte " + antalSlag + " slag");
-                System.out.println("Spiller 2 havde kun " + p2 + " guld på sig.");
+                System.out.println(language.player_name +" 1 "+ language.win_message +" "+ p1);
+                System.out.println(language.roll_number +" "+ antalSlag);
+                System.out.println(language.player_name +" 2 "+ language.losers_balance +" "+ p2);
             }
         else {
-            System.out.println("Spiller 2 vinder kampen med hele " + p2 + " guld på sig! De brugte " + antalSlag + " slag" );
-            System.out.println("Spiller 1 havde kun " + p1 + " guld på sig.");
+            System.out.println(language.player_name +" 2 "+ language.win_message +" "+ p2);
+            System.out.println(language.roll_number +" "+ antalSlag);
+            System.out.println(language.player_name +" 1 "+ language.losers_balance +" "+ p1);
             }
         }
 }
