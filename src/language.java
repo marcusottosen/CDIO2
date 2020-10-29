@@ -1,6 +1,10 @@
 public class language {
+    //Titel på spilvindue
+    static String titel = "spil";
+
+
     // Navn for spiller/player/deltager
-    static String player_name = "Spiller";
+    static String player_name = "Spiller ";
 
     // Beder spilleren om input for at starte tur
     static String begin_turn = "Skriv et bogstav eller tal og tryk enter for at tage din tur:";
@@ -22,4 +26,24 @@ public class language {
 
     // Antal terningekast brugt i spillet
     static String roll_number = "Antal terningekast de brugte:";
+
+
+    //printer hvem der lige har kastet/trykket på knappen
+    static String turnLabel = "har lige kastet sine terninger!";
+
+    static String gold = " guld";
+
+    static String kastSumLabel = "Terningerne blev kastet og du endte på felt nr ";
+
+    //Tekst på knapperne
+    static String but1Text = player_name + "har lige kastet";
+    static String but2Text = player_name + "er klar til at kaste";
+
+
+    //Når der findes en vinder
+    static String grats = "Tillykke!";
+    static String have_won = "har vundet spillet";
+    static String winnerGot = "fik hele ";
+    static String loserGot = "fik kun ";
+
 }

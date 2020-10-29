@@ -1,8 +1,3 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 public class logik {
     static int kastSum;
 
@@ -33,17 +28,6 @@ public class logik {
 
         kastSum = d1.getFaceValue()+d2.getFaceValue();
     }
-
-
-    //Print ved hvert slag
-    static JFrame f = new JFrame();
-    public static void print(String turLabel){
-    }
-
-
-
-
-
 }
 
 

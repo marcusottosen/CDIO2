@@ -14,7 +14,7 @@ public class GUI {
     private JLabel kastSumLabel;
     private JButton p2Button;
 
-    ImageIcon goldCoin = new ImageIcon("res/goldCoin.png");
+    static int turn = 0;
 
     public GUI() {
         //Opretter spillerne
@@ -22,14 +22,8 @@ public class GUI {
         spiller p2 = new spiller();
 
 
-/*
-TODO:
- - Find vinder... Virker ikke!
- - evt. tilføj gold coin
-
- */
         //Opretter selve vinduet der popper frem
-        JFrame frame = new JFrame("Spil");
+        JFrame frame = new JFrame(language.titel);
         frame.add(rootPanel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
@@ -39,12 +33,12 @@ TODO:
 
             p1Button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                    turnLabel.setText("Spiller 1 har lige kastet sine terninger!");
+                    turn=1;
+                    turnLabel.setText(language.player_name + turn+ " " + language.turnLabel);
                     logik.player1(p1);
-                    score1Label.setText("Spiller 1 har " + String.valueOf(p1.getkonto()) + " guld"); //sætter spillerens score
+                    score1Label.setText(language.player_name + turn + " har " + String.valueOf(p1.getkonto()) + language.gold); //sætter spillerens score
 
-                    turnLabel.setText("Spiller 1 har lige kastet sine terninger!");
-                    kastSumLabel.setText("Terningerne blev kastet og du endte på felt nr " + logik.kastSum);
+                    kastSumLabel.setText(language.kastSumLabel + logik.kastSum);
                     beskedLabel.setText(felter.besked(logik.kastSum));
 
                     knapSkiftP1();
@@ -54,12 +48,12 @@ TODO:
 
             p2Button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                    turnLabel.setText("Spiller 2 har lige kastet sine terninger!");
+                    turn=2;
+                    turnLabel.setText(language.player_name + turn + " " + language.turnLabel);
                     logik.player2(p2);
-                    score2Label.setText("Spiller 2 har " + String.valueOf(p2.getkonto()) + " guld"); //sætter spillerens score
+                    score2Label.setText(language.player_name + turn + " har " + String.valueOf(p2.getkonto()) + language.gold); //sætter spillerens score
 
-                    turnLabel.setText("Spiller 2 har lige kastet sine terninger!");
-                    kastSumLabel.setText("Terningerne blev kastet og du endte på felt nr " + logik.kastSum);
+                    kastSumLabel.setText(language.kastSumLabel + logik.kastSum);
                     beskedLabel.setText(felter.besked(logik.kastSum));
 
                     knapSkiftP2();
@@ -76,16 +70,16 @@ TODO:
     public void knapSkiftP1(){
         p1Button.setBackground(Color.decode(red));
         p2Button.setBackground(Color.decode(green));
-        p1Button.setText("Spiller 1 har lige kastet");
-        p2Button.setText("Spiller 2 er klar til at kaste");
+        p1Button.setText(language.player_name + "1 "+ language.but1Text);
+        p2Button.setText(language.player_name + "2 "+ language.but2Text);
         p1Button.setEnabled(false);
         p2Button.setEnabled(true);
     }
     public void knapSkiftP2(){
         p2Button.setBackground(Color.decode(red));
         p1Button.setBackground(Color.decode(green));
-        p2Button.setText("Spiller 2 har lige kastet");
-        p1Button.setText("Spiller 1 er klar til at kaste");
+        p2Button.setText(language.player_name + "2 "+ language.but1Text);
+        p1Button.setText(language.player_name + "1 "+ language.but2Text);
         p1Button.setEnabled(true);
         p2Button.setEnabled(false);
     }
@@ -93,22 +87,26 @@ TODO:
     //Finder en vinder
     public void endgame(int p1, int p2) {
         if (p1 >= logik.maxScore) {
-            turnLabel.setText("Tillykke! Spiller 1 har vundet spillet!");
-            kastSumLabel.setText("Spiller 1 fik hele " + p1 + " guld!");
-            beskedLabel.setText("Spiller 2 fik kun " + p2 + " guld...");
+            turnLabel.setText(language.grats + " 1 " + language.have_won);
+            kastSumLabel.setText(language.player_name + " 1 " + language.winnerGot + p1 + language.gold);
+            beskedLabel.setText(language.player_name + " 2 " + language.loserGot + p2 + language.gold);
             p1Button.setEnabled(false);
             p2Button.setEnabled(false);
             p1Button.setBackground(Color.WHITE);
             p2Button.setBackground(Color.WHITE);
+            p1Button.setText(" ");
+            p2Button.setText(" ");
             rootPanel.setBackground(Color.decode("#55efc4"));
         } else if (p2 >= logik.maxScore) {
-            turnLabel.setText("Tillykke! Spiller 2 har vundet spillet!");
-            kastSumLabel.setText("Spiller 2 fik hele " + p2 + " guld!");
-            beskedLabel.setText("Spiller 1 fik kun " + p1 + " guld...");
+            turnLabel.setText(language.grats + " 2 " + language.have_won);
+            kastSumLabel.setText(language.player_name + " 2 " + language.winnerGot + p1 + language.gold);
+            beskedLabel.setText(language.player_name + " 1 " + language.loserGot + p2 + language.gold);
             p1Button.setEnabled(false);
             p2Button.setEnabled(false);
             p1Button.setBackground(Color.WHITE);
             p2Button.setBackground(Color.WHITE);
+            p1Button.setText(" ");
+            p2Button.setText(" ");
             rootPanel.setBackground(Color.decode("#55efc4"));
         }
     }
