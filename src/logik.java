@@ -1,8 +1,20 @@
-public class logik{
-    static int kastSum, testSum;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class logik {
+    static int kastSum;
 
 
-    public static void play(){
+    public static void player1(spiller p1){
+        kast();
+        p1.setKonto(felter.setFelt(logik.kastSum));
+    }
+
+    public static void player2(spiller p2){
+        kast();
+        p2.setKonto(felter.setFelt(logik.kastSum));
     }
 
 
@@ -15,9 +27,6 @@ public class logik{
         d2.roll();
 
         kastSum = d1.getFaceValue()+d2.getFaceValue();
-
-        testSum = 3;
-
     }
 
 
@@ -25,31 +34,39 @@ public class logik{
 
 
     //Print ved hvert slag
-    static int spiller;
-    public static void print(boolean turn, int konto){
-        if (turn){ spiller = 1;}
-        else {spiller = 2;}
+    static JFrame f = new JFrame();
+    public static void print(String turLabel){
+        //f.turnLabel.setText("Tillykke! Spiller 1 har vundet spillet!");
 
-        System.out.println("\n" + language.player_name +" "+ spiller +" "+ language.roll_result +" "+ kastSum);
-        System.out.println(felter.besked(kastSum)); //Printer besked fundet fra listen i felter.java
-        System.out.println(language.gold_balance +" "+ konto + "\n");
+
+
+//        int spiller;
+//        if (turn){ spiller = 1;}
+//        else {spiller = 2;}
+//
+//        System.out.println("\n");
+//        System.out.println("Spiller " + spiller + " kaster to terninger og slår: " + kastSum);
+//        System.out.println(felter.besked(kastSum)); //Printer besked fundet fra listen i felter.java
+//        System.out.println("Du har nu " + konto + " guld på dig!");
     }
 
 
     //Finder vinderen
-    public static void getWin(int p1, int p2, int antalSlag) {
+    public static void getWin(int p1, int p2) {
         System.out.println("\n \n \n");
         if (p1 > p2) {
-                System.out.println(language.player_name +" 1 "+ language.win_message +" "+ p1);
-                System.out.println(language.roll_number +" "+ antalSlag);
-                System.out.println(language.player_name +" 2 "+ language.losers_balance +" "+ p2);
+                System.out.println("Spiller 1 vinder kampen med hele " + p1 + " guld på sig!" );
+                System.out.println("Spiller 2 havde kun " + p2 + " guld på sig.");
             }
         else {
-            System.out.println(language.player_name +" 2 "+ language.win_message +" "+ p2);
-            System.out.println(language.roll_number +" "+ antalSlag);
-            System.out.println(language.player_name +" 1 "+ language.losers_balance +" "+ p1);
+            System.out.println("Spiller 1 vinder kampen med hele " + p2 + " guld på sig!" );
+            System.out.println("Spiller 2 havde kun " + p1 + " guld på sig.");
             }
         }
+
+
+
+
 }
 
 
