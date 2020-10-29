@@ -4,7 +4,7 @@ public class spiller {
 
     //Konstruktør
     public spiller() {
-        konto = game.startKonto;
+        konto = logik.startKonto;
     }
 
     public int getkonto() {

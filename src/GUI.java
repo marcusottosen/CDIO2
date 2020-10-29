@@ -92,7 +92,7 @@ TODO:
 
     //Finder en vinder
     public void endgame(int p1, int p2) {
-        if (p1 >= 1300) {
+        if (p1 >= logik.maxScore) {
             turnLabel.setText("Tillykke! Spiller 1 har vundet spillet!");
             kastSumLabel.setText("Spiller 1 fik hele " + p1 + " guld!");
             beskedLabel.setText("Spiller 2 fik kun " + p2 + " guld...");
@@ -101,7 +101,7 @@ TODO:
             p1Button.setBackground(Color.WHITE);
             p2Button.setBackground(Color.WHITE);
             rootPanel.setBackground(Color.decode("#55efc4"));
-        } else if (p2 >= 1300) {
+        } else if (p2 >= logik.maxScore) {
             turnLabel.setText("Tillykke! Spiller 2 har vundet spillet!");
             kastSumLabel.setText("Spiller 2 fik hele " + p2 + " guld!");
             beskedLabel.setText("Spiller 1 fik kun " + p1 + " guld...");

@@ -1,10 +1,9 @@
 import java.util.Scanner;
-
+/*
 public class game {
-    //Værdier:
-    static int startKonto = 1000;
-    static int maxScore = 3000;
-    static int terningStr = 6;
+
+    Dette er blevet udkommenteret, da det blev indarbejdet i GUI.java
+
 
     public static void main(String[] args) {
         //Oprettelse af spillere
@@ -64,4 +63,6 @@ public class game {
     static class gameTest {
 
     }
+
 }
+*/

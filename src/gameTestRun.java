@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
+//import static org.junit.jupiter.api.Assertions.*;
 
 class gameTestRun {
     static int p1Sejr, p2Sejr;

@@ -6,6 +6,11 @@ import java.awt.event.ActionListener;
 public class logik {
     static int kastSum;
 
+    //Værdier
+    static int startKonto = 1000;
+    static int maxScore = 3000;
+    static int terningStr = 6;
+
 
     public static void player1(spiller p1){
         kast();
