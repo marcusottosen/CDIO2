@@ -1,7 +1,7 @@
 public class game {
     //Værdier:
     static int startKonto = 1000;
-    static int maxScore = 1500;
+    static int maxScore = 3000;
     static int terningStr = 6;
 //
 //

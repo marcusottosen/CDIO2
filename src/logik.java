@@ -8,12 +8,12 @@ public class logik {
 
 
     public static void player1(spiller p1){
-        logik.kast();
+        kast();
         p1.setKonto(felter.setFelt(logik.kastSum));
     }
 
     public static void player2(spiller p2){
-        logik.kast();
+        kast();
         p2.setKonto(felter.setFelt(logik.kastSum));
     }
 
@@ -63,6 +63,10 @@ public class logik {
             System.out.println("Spiller 2 havde kun " + p1 + " guld på sig.");
             }
         }
+
+
+
+
 }
 
 
