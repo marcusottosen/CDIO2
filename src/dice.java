@@ -30,11 +30,4 @@ public class dice
     {
         return faceValue;
     }
-
-    //tekst af objektets data
-    public String toString()
-    {
-        String result = Integer.toString(faceValue);
-        return result;
-    }
 }
