@@ -10,7 +10,7 @@ public class felter {
             "Walled city - Du kommer ind bag bymurene, hvor du sælger råvarer du har fået samlet til 180 guld!",
             "Monastery - Klostret påvirker ikke din guldbeholdning",
             "Black cave - Du skal ned i en mørk gråtte, men mangler en fakkel. Den koster 70 guld!",
-            "Huts in the mountain - I bjergene kommer du forbi nogle hytter. Du hjælper landsbyboere med at bygge et tag, og de betaler din 60 guld!",
+            "Huts in the mountain -Du kommer forbi hytterne i bjergene. Du hjælper landsbyboere og får 60 guld!",
             "The Werewall - Du betaler 80 guld for at se Varulvvæggen",
             "The pit - Du hopper over et hul på din vej, men taber desværre 50 guld!",
             "Goldmine - Du fandt en guldmine fyldt med guld. Nok til 650 guldmønter!"
