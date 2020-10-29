@@ -19,31 +19,36 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Release_branch" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/feature_branch" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c24086b-8f8b-487e-821e-ef214abcd6f4" name="Default Changelist" comment="Opsætning af projekt.">
-      <change afterPath="$PROJECT_DIR$/src/dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/felter.java" afterDir="false" />
+    <list default="true" id="2c24086b-8f8b-487e-821e-ef214abcd6f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Udvikling" />
+        <entry key="$PROJECT_DIR$" value="feature_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e65634af-dfec-4326-b229-889da85d63c0" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,7 +58,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jGiUSHUhWovXqpJFvpImjYjayn" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -61,12 +66,66 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GUI">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI" />
+      <module name="CDIO2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="game" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="game" />
+      <module name="CDIO 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameTest" />
+      <module name="CDIO 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gameTestRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameTestRun" />
+      <module name="CDIO 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.game" />
+      <item itemvalue="Application.gameTest" />
+      <item itemvalue="Application.gameTestRun" />
+      <item itemvalue="Application.GUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.gameTestRun" />
+        <item itemvalue="Application.gameTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +160,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603436845203</updated>
       <workItem from="1603436846322" duration="1092000" />
+      <workItem from="1603791409452" duration="673000" />
+      <workItem from="1603792090718" duration="677000" />
+      <workItem from="1603792835643" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="Opsætning af projekt.">
       <created>1603437204687</created>
@@ -110,7 +185,56 @@
       <option name="project" value="LOCAL" />
       <updated>1603437671164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Opsætning af korrekte klasser i IntelliJ så programmet kan køres.">
+      <created>1603792886638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603792886638</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Små SOUT rettelser.">
+      <created>1603794285321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603794285321</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Rettelse til static int variable. Spillet virker som det skal her.">
+      <created>1603795491835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603795491835</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SOUT rettelser i logik klassen.">
+      <created>1603796325505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603796325505</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Opretter language.java og flyttet strings dertil">
+      <created>1603901499858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603901499858</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merging af udvikling branch med feature branch. Fuld udkommentering af game.java og flytning af 3 værdier fra game.java til logik.java">
+      <created>1603971255559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603971255559</updated>
+    </task>
+    <task id="LOCAL-00010" summary="En besked var for lang til GUIen, så den er forkortet nu">
+      <created>1603971442703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603971442703</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +251,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Release_branch" />
+                        <option value="origin/feature_branch" />
                       </list>
                     </value>
                   </entry>
@@ -138,19 +262,134 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Opsætning af projekt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Opsætning af projekt." />
+    <MESSAGE value="Opsætning af korrekte klasser i IntelliJ så programmet kan køres." />
+    <MESSAGE value="Små SOUT rettelser." />
+    <MESSAGE value="Rettelse til static int variable. Spillet virker som det skal her." />
+    <MESSAGE value="SOUT rettelser i logik klassen." />
+    <MESSAGE value="Opretter language.java og flyttet strings dertil" />
+    <MESSAGE value="Merging af udvikling branch med feature branch. Fuld udkommentering af game.java og flytning af 3 værdier fra game.java til logik.java" />
+    <MESSAGE value="En besked var for lang til GUIen, så den er forkortet nu" />
+    <option name="LAST_COMMIT_MESSAGE" value="En besked var for lang til GUIen, så den er forkortet nu" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="872" y="358" width="816" height="729" key="#Intentions" timestamp="1603794666223">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="358" width="816" height="729" key="#Intentions/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794666223" />
+    <state x="760" y="274" key="#Project_Structure" timestamp="1603792208653">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="#Project_Structure/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792208653" />
+    <state x="95" y="111" width="945" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603973363803">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state x="734" y="355" width="1092" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603793042630" />
+    <state x="367" y="118" width="804" height="562" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603898077143" />
+    <state x="95" y="111" width="945" height="828" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.972@0.0.1504.972" timestamp="1603973363803" />
     <state x="1615" y="505" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603437928014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1615" y="505" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603437928014" />
-    <state x="1449" y="436" key="Vcs.Push.Dialog.v2" timestamp="1603437814139">
+    <state x="1009" y="538" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603792761689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1009" y="538" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792761689" />
+    <state x="1063" y="565" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603794654006">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1063" y="565" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794654006" />
+    <state x="48" y="0" key="CommitChangelistDialog2" timestamp="1603971441320">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state x="48" y="0" key="CommitChangelistDialog2/0.0.1504.972@0.0.1504.972" timestamp="1603971441320" />
+    <state x="561" y="290" key="FileChooserDialogImpl" timestamp="1603973362922">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state x="955" y="417" key="FileChooserDialogImpl/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792675093" />
+    <state x="561" y="290" key="FileChooserDialogImpl/0.0.1504.972@0.0.1504.972" timestamp="1603973362922" />
+    <state width="1461" height="102" key="GridCell.Tab.0.bottom" timestamp="1603971755862">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.0.bottom/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322511" />
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603969416605" />
+    <state width="1461" height="102" key="GridCell.Tab.0.bottom/0.0.1504.972@0.0.1504.972" timestamp="1603971755862" />
+    <state width="1461" height="102" key="GridCell.Tab.0.center" timestamp="1603971755862">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.0.center/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322510" />
+    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603969416605" />
+    <state width="1461" height="102" key="GridCell.Tab.0.center/0.0.1504.972@0.0.1504.972" timestamp="1603971755862" />
+    <state width="1461" height="102" key="GridCell.Tab.0.left" timestamp="1603971755862">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.0.left/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322510" />
+    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603969416605" />
+    <state width="1461" height="102" key="GridCell.Tab.0.left/0.0.1504.972@0.0.1504.972" timestamp="1603971755862" />
+    <state width="1461" height="102" key="GridCell.Tab.0.right" timestamp="1603971755862">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.0.right/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603798322510" />
+    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603969416605" />
+    <state width="1461" height="102" key="GridCell.Tab.0.right/0.0.1504.972@0.0.1504.972" timestamp="1603971755862" />
+    <state width="2517" height="370" key="GridCell.Tab.1.bottom" timestamp="1603792767433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="370" key="GridCell.Tab.1.bottom/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792767433" />
+    <state width="2517" height="370" key="GridCell.Tab.1.center" timestamp="1603792767433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="370" key="GridCell.Tab.1.center/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792767433" />
+    <state width="2517" height="370" key="GridCell.Tab.1.left" timestamp="1603792767433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="370" key="GridCell.Tab.1.left/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792767433" />
+    <state width="2517" height="370" key="GridCell.Tab.1.right" timestamp="1603792767433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="370" key="GridCell.Tab.1.right/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603792767433" />
+    <state x="248" y="122" key="MergeDialog" timestamp="1603791324478">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="248" y="122" key="MergeDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603791324478" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1603794702170">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="SettingsEditor/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794702170" />
+    <state x="690" y="303" key="Vcs.Push.Dialog.v2" timestamp="1603971446171">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state x="1449" y="436" key="Vcs.Push.Dialog.v2/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603796328325" />
+    <state x="690" y="303" key="Vcs.Push.Dialog.v2/0.0.1504.972@0.0.1504.972" timestamp="1603971446171" />
     <state x="1449" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.216.1920.1040@0.0.2560.1400" timestamp="1603437814139" />
+    <state x="1096" y="478" key="chooseDestDirectoryDialog" timestamp="1603796857265">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1096" y="478" key="chooseDestDirectoryDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603796857265" />
+    <state x="984" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603794682344">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="984" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603794682344" />
+    <state x="644" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603973375587">
+      <screen x="0" y="0" width="1504" height="972" />
+    </state>
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603791304410" />
+    <state x="644" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1504.972@0.0.1504.972" timestamp="1603973375587" />
+    <state x="1051" y="506" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603796857276">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1051" y="506" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603796857276" />
+    <state x="1059" y="413" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603791317556">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1059" y="413" key="git4idea.branch.GitSmartOperationDialog/-1920.356.1920.1040/0.0.2560.1400/2560.-237.1080.1880@0.0.2560.1400" timestamp="1603791317556" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CDIO2$GUI.ic" NAME="GUI Coverage Results" MODIFIED="1603971507615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CDIO_2$game.ic" NAME="game Coverage Results" MODIFIED="1603792727554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CDIO2$game.ic" NAME="game Coverage Results" MODIFIED="1603649848291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

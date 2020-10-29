@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="476" height="266"/>
+    </constraints>
+    <properties>
+      <background color="-2103575"/>
+    </properties>
+    <border type="line">
+      <color color="-13814730"/>
+    </border>
+    <children>
+      <component id="7c7b7" class="javax.swing.JButton" binding="p1Button">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16729964"/>
+          <font/>
+          <foreground color="-13814730"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Kast terninger"/>
+        </properties>
+      </component>
+      <component id="ba39c" class="javax.swing.JLabel" binding="score1Label">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-13814730"/>
+          <text value="Spiller 1 har 1000 guld"/>
+        </properties>
+      </component>
+      <component id="e623b" class="javax.swing.JLabel" binding="score2Label">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-13814730"/>
+          <text value="Spiller 2 har 1000 guld"/>
+        </properties>
+      </component>
+      <component id="128e0" class="javax.swing.JLabel" binding="turnLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-13814730"/>
+          <text value="Tryk på knappen &quot;Kast terninger&quot; for at starte spillet!"/>
+        </properties>
+      </component>
+      <component id="5e81c" class="javax.swing.JLabel" binding="beskedLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-13814730"/>
+          <text value="Held og lykke!"/>
+        </properties>
+      </component>
+      <hspacer id="7e457">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="6e424">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="8690a">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="60"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="7092e">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="15"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="bd060" class="javax.swing.JLabel" binding="kastSumLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-13814730"/>
+          <text value="Første spiller der når 4000 guld vinder spillet"/>
+        </properties>
+      </component>
+      <vspacer id="874bb">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="36763">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="901fe">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="de7a8" class="javax.swing.JButton" binding="p2Button">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16729964"/>
+          <foreground color="-13814730"/>
+          <text value="Kast terninger"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
